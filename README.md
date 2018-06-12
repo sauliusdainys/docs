@@ -1,13 +1,12 @@
 # **K2N.IO - White Paper**
 
-## Smart Data Platform for Decentralized Apps
+## Data Integration Platform for Decentralized Apps
 
 **Build, deploy and run smart, data rich &amp; dynamic DAPPs**
 
-# _Author_
+# About
 
  [http://k2n.io](http://k2n.io)
- [https://www.linkedin.com/in/amavashev/](https://www.linkedin.com/in/amavashev/)
  [info@k2n.io](mailto:info@k2n.io)
 
 # Disclaimer
