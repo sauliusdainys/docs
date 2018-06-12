@@ -317,10 +317,6 @@ K2 Project will also develop additional extensions such as:
 - Data integration and workflow tools for smart contract (DAPP) developers
 - Integrations with various block chains (Bitcoin, ETH, EOS, NEO, WAN, etc.)
 
-See a tentative technology roadmap below.
-
-**NOTE** : Roadmap and dates are subject to change without notice. The actual roadmap will change as governance and voting process is implemented.
-
 # Summary
 
 Data integration presents a significant challenge for the development and growth of the digital smart economy. K2&#39;s goal is to deliver a data integration and analytics marketplace for powering data rich, dynamic DAPPs. This ecosystem is essential for the overall success of the smart economy. K2 combines multiple integrated technologies such as: cryptography, streaming, clustered computing, big &amp; fast data, complex event processing (CEP) as well as a data marketplace where machine data can be traded between data providers (such as Oracles) and decentralized applications.
