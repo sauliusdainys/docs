@@ -95,7 +95,7 @@ It is quite common for apps to use multiple data sources and algorithms to imple
 
 - Multiple interfaces to various Oracles
 - Data quality &amp; fidelity may not be the same across Oracles
-- Managing time synchronization and latency is a pain
+- Managing time synchronization and latency is challenging
 - Data communication, session &amp; exception management is complex
 - Payment and quality of service may differ and need to be managed for each Oracle
 - Changes in each Oracle&#39;s interface may break your application logic
