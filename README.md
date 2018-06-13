@@ -296,11 +296,10 @@ Each proposal consists of 2 parts: problem or challenge and one or more solution
 K2 project is a derivative of a technology developed by jKool, LLC which is already running in production as a SaaS platform for streaming and analyzing data in motion and @ rest ( [www.jkoolcloud.com](http://www.jkoolcloud.com)). jKool, LLC ( [www.jkoolcloud.com](http://www.jkoolcloud.com)) contributes the following technology to the K2 ecosystem:
 
 - Streaming platform for Oracles ( [https://github.com/Nastel/tnt4j-streams](https://github.com/Nastel/tnt4j-streams))
-- Subscription platform for subscribers ( [https://github.com/Nastel/jkool-client-java-api](https://github.com/Nastel/jkool-client-java-api))
+- Streaming and analytics APIs ( [https://github.com/Nastel/jkool-client-java-api](https://github.com/Nastel/jkool-client-java-api))
 - Messaging and audit platform ( [https://www.jkoolcloud.com/product/technology/](https://www.jkoolcloud.com/product/technology/))
 - Data analytics platform ( [https://www.jkoolcloud.com/product/jkql-query-language/](https://www.jkoolcloud.com/product/jkql-query-language/))
 - Marketplace for Oracles and consumers ( [https://jkool.jkoolcloud.com/jKool/login.jsp](https://jkool.jkoolcloud.com/jKool/login.jsp))
-- APIs and protocol for RPC &amp; publish/subscribe ( [https://github.com/Nastel/jkool-client-java-api](https://github.com/Nastel/jkool-client-java-api))
 
 K2 Platform will be open sourced available @ GitHub under [LGPL-v3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html) license with development roadmap governed by community governance board as described in K2 Governance Model.
 
