@@ -264,11 +264,12 @@ K2 is a consumer token used for securing and trading K2 data services. DAPPs, va
 
 All K2 data providers such as Oracles, data lakes, validators, routers must stake K2 tokens to partake in the K2 ecosystem. Staked tokens are used to ensure quality of service and enforce terms of service outlined in the Smart Data Contract (SDC). Network particapants may lose part of the staked K2 tokens if terms outlined SDC are violated. Here are some examples of SDC violations:
 
-- Data is not within the QoS (Quality of Service)
+- Data is not within agreed upon QoS (Quality of Service)
 - Inaccurate or incorrect data (rejected by most validators)
 - Bad data format or stale data (not &quot;fresh&quot;)
+- Exception or no response received (request timeout)
 
-The penalty amount as well as responsible parties are specified within SDC when terms of services are violated. This ensures that data consumers (DAPPs) get the highest level of service. K2 PoS combined with SDC serves as an algorihmic insurance and dispute resolution framework. 
+The penalty as well as responsible parties are specified within SDC when terms of services are violated. This ensures that data consumers (DAPPs) get the highest level of service. K2 PoS combined with SDC serves as an algorihmic insurance and dispute resolution framework. 
 
 ## K2 Governance Model
 
