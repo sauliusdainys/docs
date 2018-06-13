@@ -53,8 +53,6 @@ K2 also opens conduits for integration and growth of both on-chain and off-chain
 
 DAPPs must be able to buy and sell data just like buying and selling commodities or products in a store. This requires a digital market place where data can be bought and sold at prices determined by free market forces. DAPPs should be able to query and select various data sources by topic, price, rating and other attributes, execute a data contract and obtain data streams all using digital channels and verified by the underlying blockchain (such as ETHEREUM).
 
-
-
 This model makes it easy to get data and computations into any smart contract without complex development and integration. DAPPs can simply query the data marketplace and source in data on the fly using a consistent programming model across all data sources. The relationship between DAPP (consumer) and Oracle(s) is managed by Smart Data Contract (SDC) which defines the rules of engagement, terms of service &amp; cost structure.
 
 There are instances when DAPPs may want to write data to an external data store (Data Lake). Data marketplace allows DAPPs not only to query data sources but also record data that may not be appropriate on-chain.
@@ -140,9 +138,9 @@ Running on-chain computation are slow and expensive within today&#39;s set of de
 
 Contracts should be able to exchange data without on-chain settlement. C2C communication is often necessary to deliver high throughput, data rich, dynamic applications. Such data exchanges can occur via Oracles and/or Data Lakes using variety of data access methods as described in previous sections.
 
-# K2N.IO – Intelligent Data Marketplace for DAPPs
+# K2N.IO – Smart Data Marketplace for DAPPs
 
-K2N.IO is a data integration and analytics platform which serves to connect off-chain data with the decentralized ecosystem. K2 interconnects decentralized applications with on and off chain data streams (Oracles) and enables building data rich &amp; dynamic DAPPs. Digital, decentralized economies require high fidelity data streams to execute smart contracts and gain trust in a trustless model.  Such data streams are currently fragmented, not easily/readily available and most importantly un-auditable and un-verifiable introducing a significant roadblock for the development of decentralized, smart economy.
+K2N.IO is a data integration and analytics platform which serves to connect off-chain data with the decentralized ecosystem. K2 interconnects decentralized applications with on and off chain data streams (Oracles) and enables building data rich &amp; dynamic DAPPs. Digital, decentralized economies require high fidelity data streams to execute smart contracts and gain trust in a trustless model. Such data streams are currently fragmented, not easily/readily available and most importantly un-auditable and un-verifiable introducing a significant roadblock for the development of decentralized, smart economy.
 
 K2 allows data providers monetize data services while fueling development and integration of decentralized applications via a K2 Data Marketplace.
 
@@ -173,8 +171,6 @@ Messages (Data Frames) address the issue of consistently applying chunks of rela
 ## Algorithms (Compute Oracles)
 
 Algorithms are specialized Oracles which deliver computational capacity to the K2 ecosystem. Smart contracts can call K2 algorithms on a given data set. K2 will deliver a standard set of algorithms for analyzing times series data such as: mathematical operators, aggregations, statistical operators, anomaly detection, machine learning.
-
-
 
 ## Oracles (Read &amp; Compute only)
 
@@ -266,17 +262,17 @@ K2 is a consumer token used for securing and trading K2 data services. DAPPs, va
 
 ## K2 Proof Stake Model (PoS)
 
-Oracle (data providers) and data validators must stake K2 tokens to partake in the K2 ecosystem. Staked tokens are used to ensure that key network participants are delivering services in good faith and abide by the terms of service outlined in the Smart Data Contract (SDC). Oracles may lose part of the staked K2 tokens if SDC is violated. Here are some examples of SDC violations:
+All K2 data providers such as Oracles, data lakes, validators, routers must stake K2 tokens to partake in the K2 ecosystem. Staked tokens are used to ensure quality of service and enforce terms of service outlined in the Smart Data Contract (SDC). Network particapants may lose part of the staked K2 tokens if terms outlined SDC are violated. Here are some examples of SDC violations:
 
 - Data is not within the QoS (Quality of Service)
-- Inaccurate data (rejected by most validators)
+- Inaccurate or incorrect data (rejected by most validators)
 - Bad data format or stale data (not &quot;fresh&quot;)
 
-The penalty amount is also specified within SDC and outlines the amount and who pays in case SDC terms and conditions are violated. This ensures that data consumers (DAPPs) get the highest level of service.
+The penalty amount as well as responsible parties are specified within SDC when terms of services are violated. This ensures that data consumers (DAPPs) get the highest level of service. K2 PoS combined with SDC serves as an algorihmic insurance and dispute resolution framework. 
 
 ## K2 Governance Model
 
-K2 PoS model also allows network participants to influence development, behavior and governance of the K2 ecosystem. All network participants who stake K2 tokens have voting rights which are proportional to the number of staked tokens. Therefore, networks participants get a say in the rules, conditions, development and governance of K2 ecosystem.
+K2 PoS model allows network participants to influence development, behavior and governance of the K2 ecosystem. All network participants who stake K2 tokens have voting rights which are proportional to the number of staked tokens. Therefore, networks participants get a say in the rules, conditions, development and governance of K2 ecosystem.
 
 Voting is done on a quarterly schedule and get merged into the main trunk of the K2 roadmap. Any network participant (with staked tokens) can file a &quot;proposal&quot; to be voted on by the K2 stake holders.
 
