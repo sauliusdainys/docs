@@ -207,6 +207,10 @@ K2 introduces a consistent pricing model for all data services. The following pr
 
 A pricing model is specified in the SDC (smart data contract) which outlines the terms of service between consumers and data services.
 
+## Reputation Scores (Karma)
+
+All K2 network particapants are scored based quality of service provided over a period of time. Reputation scores for oracles, validators, data lakes and routers will allow data consumers to select most reliable and secure services with best quality of service. Karma is computed automatically based on number of fullfilled smart contracts, volume of data, availability index and ratio of service delivery vs penalties based on violations of terms of service as specified in SDC. DAPPs may select data services not just based on function or category, but also based on reputation scores (karma).     
+
 ## Data Query &amp; Compute Language (Liquid)
 
 K2 provides several ways to write, query and analyze data:
