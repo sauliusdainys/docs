@@ -111,6 +111,9 @@ Developers of decentralized applications should be able to form and execute a Sm
 - Payment details: price and unit of measurement
 - Entities responsible for data services
 - Fees and penalties paid for data services
+- Budget associated with data consumer
+- Insurance associated with data service providers
+- Contract expiration and settlement policy
 
 ## Data Retention and Replay
 
@@ -148,11 +151,11 @@ K2 allows data providers monetize data services while fueling development and in
 
 SDC (Smart Data Contract) is an on-chain algorithmic agreement between Oracle(s), subscriber and validator. It outlines several categories of service:
 
-- How data is delivered (scheme) – publish/subscribe or request/reply
+- Data access scheme – publish/subscribe, request/reply or both
 - Retention – how long will the data be retained for auditing
 - Frequency – what is frequency of data delivery (every sec, min, hour)
 - Message Format – JSON, XML, etc.
-- Message Structure – describes required and optional fields
+- Budget associated with data consumer
 - Pricing Model – agreed pricing model and cost structure (e.g.  BTC/byte, $/byte)
 - Penalty – agreed upon penalty for not delivering a service
 - Router(s) – agreed upon intermediary for data exchange
@@ -161,6 +164,18 @@ SDC (Smart Data Contract) is an on-chain algorithmic agreement between Oracle(s)
 - Oracle(s) associated with the contract (read/query only)
 - Data Lake(s) associated with the contract (write with optional read)
 - Terms of service such as expiration (date or event)
+- Insurance associated with data service providers
+- Contract expiration and settlement policy
+
+SDC are funded by all parties to the contract. Consumers fund the contract to pay for data services such as retention, validation, routing, etc. K2 data services fund SDC as insurance against violations of terms and quality of service.
+
+Smart Data Contracts are settled during the life of the contract and at the end of each contract. Settlement includes disbursement of balances to all particapants such as consumers, oracles, data lakes, routers, etc. Therefore long term contracts can settle periodically as defined by the settlement policy (e.g daily, weekly, monthly).
+
+SDC life cycle consists of the following phases:
+- Phase 1: Funding    -- contract is initiated where all parties msut fund the contract
+- Phase 2: Active     -- contract is funded and live; data exchange can be initiated
+- Phase 3: Settlement -- contracts periodically settle balances across all parties
+- Phase 4: Expiration -- contract expires either based on terms of use or one when contract budget and/or insurance is depleted
 
 ## Messages (Data Frames)
 
