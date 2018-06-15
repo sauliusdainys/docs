@@ -287,8 +287,9 @@ All K2 data providers such as Oracles, data lakes, validators, routers must stak
 - Inaccurate or incorrect data (rejected by most validators)
 - Bad data format or stale data (not &quot;fresh&quot;)
 - Exception or no response received (request timeout)
+- Service unavailable or bad return
 
-The penalty as well as responsible parties are specified within SDC when terms of services are violated. This ensures that data consumers (DAPPs) get the highest level of service. K2 PoS combined with SDC serves as an algorihmic insurance and dispute resolution framework. 
+The penalty is applied against insurance budget (funded by K2 network particapants) when terms of services are violated. This ensures that data consumers (DAPPs) get the highest level of service. K2 PoS combined with SDC serves as an algorihmic insurance, dispute resolution and reputation scoring model.
 
 ## K2 Governance Model
 
