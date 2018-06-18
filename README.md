@@ -141,7 +141,7 @@ Running on-chain computation are slow and expensive within today&#39;s set of de
 
 Contracts should be able to exchange data without on-chain settlement. C2C communication is often necessary to deliver high throughput, data rich, dynamic applications. Such data exchanges can occur via Oracles and/or Data Lakes using variety of data access methods as described in previous sections.
 
-# K2N.IO – Smart Data Marketplace for DAPPs
+# K2N.IO – Data Integration Platform for DAPPs
 
 K2N.IO is a data integration and analytics platform which serves to connect off-chain data with the decentralized ecosystem. K2 interconnects decentralized applications with on and off chain data streams (Oracles) and enables building data rich &amp; dynamic DAPPs. Digital, decentralized economies require high fidelity data streams to execute smart contracts and gain trust in a trustless model. Such data streams are currently fragmented, not easily/readily available and most importantly un-auditable and un-verifiable introducing a significant roadblock for the development of decentralized, smart economy.
 
