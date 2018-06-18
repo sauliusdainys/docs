@@ -155,7 +155,7 @@ SDC (Smart Data Contract) is an on-chain algorithmic agreement between Oracle(s)
 - Retention – how long will the data be retained for auditing
 - Frequency – what is frequency of data delivery (every sec, min, hour)
 - Message Format – JSON, XML, etc.
-- Budget associated with data consumer
+- Budget – maximum amount allocated by consumer for data services
 - Pricing Model – agreed pricing model and cost structure (e.g.  BTC/byte, $/byte)
 - Penalty – agreed upon penalty for not delivering a service
 - Router(s) – agreed upon intermediary for data exchange
@@ -167,9 +167,9 @@ SDC (Smart Data Contract) is an on-chain algorithmic agreement between Oracle(s)
 - Insurance associated with data service providers
 - Contract expiration and settlement policy
 
-SDC are funded by all parties to the contract. Consumers fund the contract to pay for data services such as retention, validation, routing, etc. K2 data services fund SDC as insurance against violations of terms and quality of service.
+Each SDC is funded by all parties to the contract. Consumers fund the contract to pay for data services such as retention, validation, routing, etc. K2 data services fund SDC as insurance against violations of terms and quality of service.
 
-Smart Data Contracts are settled during the life of the contract and at the end of each contract. Settlement includes disbursement of balances to all particapants such as consumers, oracles, data lakes, routers, etc. Therefore long term contracts can settle periodically as defined by the settlement policy (e.g daily, weekly, monthly).
+Smart Data Contracts are settled during the life of the contract and at the end of each contract. Settlement includes disbursement of balances to all particapants such as consumers, oracles, data lakes, routers, etc. Therefore long term contracts can settle periodically as defined by the settlement policy (e.g hourly, daily, weekly, monthly).
 
 SDC life cycle consists of the following phases:
 - Phase 1: Funding    -- contract is initiated where all parties msut fund the contract
