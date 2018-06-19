@@ -33,9 +33,9 @@ DAPP developers should be able to write, query, access data via PUSH and PULL, s
 - Receive call backs when data or computation is ready to consume
 - Audit and analyze data streams historical and real-time
 
-**K2&#39;s mission is to provide a data integration platform which makes it easy to develop, deploy and run secure and auditable data rich DAPPs**. K2 is not just an Oracle with publish/subscribe – it is a data marketplace where DAPPs do &#39;data shopping&#39; and data providers can monetize their data – Data as Service (DaaS).
+**K2&#39;s mission is to provide a data integration platform which makes it easy to develop, deploy and run secure and auditable data rich DAPPs**. K2N is not just an Oracle with publish/subscribe – it is a data marketplace where DAPPs do &#39;data shopping&#39; and data providers can monetize their data – Data as Service (DaaS).
 
-K2 also opens conduits for integration and growth of both on-chain and off-chain eco-systems (private and public) such as:
+K2N opens conduits for integration of both on-chain and off-chain eco-systems (private and public) such as:
 
 - Bridge existing data silos with decentralized, crypto ecosystem
 - Quickly expose your data stash without lengthy and expensive integration effort
@@ -59,7 +59,7 @@ There are instances when DAPPs may want to write data to an external data store 
 
 ## Unpredictable Cost Structure
 
-Data consumers want a predictable cost structure, while data providers a predictable revenue model. How do you price services when token&#39;s value may fluctuate dramatically on the open market? One of the goals of the K2 ecosystem is to introduce a stable cost structure via a K2 token, where costs are pegged to something external such as USD, EUR, gold, etc. and actual price of K2 tokens fluctuates dynamically based on a market exchange rate. This dynamic data pricing model ensures consistent cost and revenue model within K2 ecosystem.
+Data consumers want a predictable cost structure, while data providers a predictable revenue model. How do you price services when token&#39;s value may fluctuate dramatically on the open market? One of the goals of the K2N ecosystem is to introduce a stable cost structure via a K2 token, where costs are pegged to something external such as USD, EUR, gold, etc. and actual price of K2 tokens fluctuates dynamically based on a market exchange rate. This dynamic data pricing model ensures consistent cost and revenue model within K2 ecosystem.
 
 ## Data Delivery Modes
 
@@ -73,7 +73,7 @@ Current decentralized blockchain implementations have serious scaling limitation
 
 Fundamentally smart contracts require data from trusted sources which can be proven to come from such sources. This can be achieved by using cryptographic proofs and end to end encryption, however such proprietary data sources make this task difficult and often impossible.  Currently there is no consistent way to verify what data sources are being used by a given DAPP, how these data source are secured and validated. What happens when a smart contract executes business logic based on compromised data?
 
-All data in K2 is encrypted by Oracles and validators which verify and sign each data frame.  Each subscriber can independently verify 1) data comes from authentic Oracle and 2) validated and verified by a given set of validators. The contents of the data can be optionally encrypted to ensure end-to-end security and privacy.
+All data in K2N is encrypted by Oracles and validators which verify and sign each data frame.  Each subscriber can independently verify 1) data comes from authentic Oracle and 2) validated and verified by a given set of validators. The contents of the data can be optionally encrypted to ensure end-to-end security and privacy.
 
 ## Data Access
 
@@ -143,9 +143,9 @@ Contracts should be able to exchange data without on-chain settlement. C2C commu
 
 # K2N.IO – Data Integration Platform for DAPPs
 
-K2N.IO is a data integration and analytics platform which serves to connect off-chain data with the decentralized ecosystem. K2 interconnects decentralized applications with on and off chain data streams (Oracles) and enables building data rich &amp; dynamic DAPPs. Digital, decentralized economies require high fidelity data streams to execute smart contracts and gain trust in a trustless model. Such data streams are currently fragmented, not easily/readily available and most importantly un-auditable and un-verifiable introducing a significant roadblock for the development of decentralized, smart economy.
+K2N.IO is a data integration and analytics platform which serves to connect off-chain data with the decentralized ecosystem. K2N interconnects decentralized applications with on and off chain data streams (Oracles) and enables building data rich &amp; dynamic DAPPs. Digital, decentralized economies require high fidelity data streams to execute smart contracts and gain trust in a trustless model. Such data streams are currently fragmented, not easily/readily available and most importantly un-auditable and un-verifiable introducing a significant roadblock for the development of decentralized, smart economy.
 
-K2 allows data providers monetize data services while fueling development and integration of decentralized applications via a K2 Data Marketplace.
+K2N allows data providers monetize data services while fueling development and integration of decentralized applications via a K2N Data Marketplace.
 
 ## Smart Data Contract (SDC)
 
@@ -167,7 +167,7 @@ SDC (Smart Data Contract) is an on-chain algorithmic agreement between Oracle(s)
 - Insurance associated with data service providers
 - Contract expiration and settlement policy
 
-Each SDC is funded by all parties to the contract. Consumers fund the contract to pay for data services such as retention, validation, routing, etc. K2 data services fund SDC as insurance against violations of terms and quality of service.
+Each SDC is funded by all parties to the contract. Consumers fund the contract to pay for data services such as retention, validation, routing, etc. K2N data services fund SDC as insurance against violations of terms and quality of service.
 
 Smart Data Contracts are settled during the life of the contract and at the end of each contract. Settlement includes disbursement of balances to all particapants such as consumers, oracles, data lakes, routers, etc. Therefore long term contracts can settle periodically as defined by the settlement policy (e.g hourly, daily, weekly, monthly).
 
@@ -185,11 +185,11 @@ Messages (Data Frames) address the issue of consistently applying chunks of rela
 
 ## Algorithms (Compute Oracles)
 
-Algorithms are specialized Oracles which deliver computational capacity to the K2 ecosystem. Smart contracts can call K2 algorithms on a given data set. K2 will deliver a standard set of algorithms for analyzing times series data such as: mathematical operators, aggregations, statistical operators, anomaly detection, machine learning.
+Algorithms are specialized Oracles which deliver computational capacity to the K2 ecosystem. Smart contracts can call K2 algorithms on a given data set. K2N will deliver a standard set of algorithms for analyzing times series data such as: mathematical operators, aggregations, statistical operators, anomaly detection, machine learning.
 
 ## Oracles (Read &amp; Compute only)
 
-Oracles are owners and providers of data, which produce the underlying data required for contract execution. This data could be public such as on-chain data: Bitcoin, ETH, LTC, etc. Data can also be private and delivered by certain companies or entities such as: weather, stock pricing, sensor data, automotive telemetry, insurance, banking etc. K2 platform is responsible for converting raw data streams provided by Oracles and turning them into Messages consumable by DAPPs.
+Oracles are owners and providers of data, which produce the underlying data required for contract execution. This data could be public such as on-chain data: Bitcoin, ETH, LTC, etc. Data can also be private and delivered by certain companies or entities such as: weather, stock pricing, sensor data, automotive telemetry, insurance, banking etc. K2N platform is responsible for converting raw data streams provided by Oracles and turning them into Messages consumable by DAPPs.
 
 Oracles can be joined into a single stream which can be consumed as a single message containing variables from all the Oracles required for contract execution.
 
@@ -199,7 +199,7 @@ Data Lake is a data repository holding static, dynamic data. It could be databas
 
 ## Data Routers (Data Intermediary)
 
-Data Router is K2 network intermediary which provides data routing &amp; delivery medium between data consumers and producers. Example of data routers could be: TOR, VPN, onion routing implementations, point-to-point and others. Smart data contract outlines the medium of exchange and defines the routing method between K2 data services. Routers can also provide an additional level of security and anonymity required by data consumers. Routing services are paid for by data consumers and codified within a smart data contract.
+Data Router is K2N network intermediary which provides data routing &amp; delivery medium between data consumers and producers. Example of data routers could be: TOR, VPN, onion routing implementations, point-to-point and others. Smart data contract outlines the medium of exchange and defines the routing method between K2 data services. Routers can also provide an additional level of security and anonymity required by data consumers. Routing services are paid for by data consumers and codified within a smart data contract.
 
 ## Subscribers (Data Consumers)
 
@@ -224,7 +224,7 @@ A pricing model is specified in the SDC (smart data contract) which outlines the
 
 ## Reputation Scores (Karma)
 
-All K2 network particapants are scored based quality of service provided over a period of time. Reputation scores for oracles, validators, data lakes and routers will allow data consumers to select most reliable and secure services with best quality of service. Karma is computed automatically based on number of fullfilled smart contracts, volume of data, availability index and ratio of service delivery vs penalties for violations of terms of service as specified in SDC. DAPPs may select data services not just based on function or category, but also on reputation scores (karma). Data services must maintain a high reputation score to be used by smart contract developers.  
+All K2N network particapants are scored based quality of service provided over a period of time. Reputation scores for oracles, validators, data lakes and routers will allow data consumers to select most reliable and secure services with best quality of service. Karma is computed automatically based on number of fullfilled smart contracts, volume of data, availability index and ratio of service delivery vs penalties for violations of terms of service as specified in SDC. DAPPs may select data services not just based on function or category, but also on reputation scores (karma). Data services must maintain a high reputation score to be used by smart contract developers.  
 
 ## Data Query &amp; Compute Language (Liquid)
 
@@ -258,30 +258,30 @@ K2&#39;s goal is to deliver an elastic messaging bus which can accommodate growi
 - Decentralized ecosystem of Oracles, Validators, Algorithms and Routers
 - On-chain settlement of payment, data contracts and terms of service
 
-# K2 Token Economics
+# K2N Token Economics
 
-K2 is a &quot;digital railway&quot; for connecting Oracles, Validators and Subscribers and establishes: trust, high accuracy, fidelity, quality of service and discourages fraud or poor quality of service. DAPPs compensate high quality Oracles for timely and accurate data, conversely economic dis-incentives exist for Oracles which deliver poor quality or inaccurate information. Such incentives are expressed and codified in a Smart Data Contract (SDC) which outlines terms and condition including payment terms and quality of service.
+K2N is a &quot;digital railway&quot; for connecting Oracles, Validators and Subscribers and establishes: trust, high accuracy, fidelity, quality of service and discourages fraud or poor quality of service. DAPPs compensate high quality Oracles for timely and accurate data, conversely economic dis-incentives exist for Oracles which deliver poor quality or inaccurate information. Such incentives are expressed and codified in a Smart Data Contract (SDC) which outlines terms and condition including payment terms and quality of service.
 
-K2 ecosystem economy grows with the number of Oracles, DAPPs and overall data volume. A portion of the fees paid for data services within SDC is allocated towards network participants such as: Oracles, data lakes, validators and routers. All fees including routing fee are codified within SDC.
+K2N ecosystem economy grows with the number of Oracles, DAPPs and overall data volume. A portion of the fees paid for data services within SDC is allocated towards network participants such as: Oracles, data lakes, validators and routers. All fees including routing fee are codified within SDC.
 
-K2 token ecosystem consists of following:
+K2N token ecosystem consists of following:
 
-- K2 token – digital smart contract, voting rights and means of exchange
-- K2 PoS – proof of stake model for network participants
-- K2 governance – a framework and process to govern development of K2 ecosystem
+- K2N token – digital smart contract, voting rights and means of exchange
+- K2N PoS – proof of stake model for network participants
+- K2N governance – a framework and process to govern development of K2 ecosystem
 
-## K2 Crypto Token
+## K2N Crypto Token
 
-K2 is a consumer token used for securing and trading K2 data services. DAPPs, validators, data lakes and oracles must obtain and stake K2 tokens to partake in the K2 network. Bad actors are punished by revoking a portion of K2 tokens as defined in SDC. This creates a strong dis-incentive for Oracles and validators to provide inaccurate or fraudulent data and ensures that data is &quot;fresh&quot;. Validators are responsible for data retention and verification of data contracts between Oracles and DAPPs. Such verification includes: accuracy, fidelity and adherence to the terms and conditions of data contracts (SDC). In summary K2 token provides the following utility:
+K2N is a consumer token used for securing and trading K2N data services. DAPPs, validators, data lakes and oracles must obtain and stake K2N tokens to partake in the K2N network. Bad actors are punished by revoking a portion of K2 tokens as defined in SDC. This creates a strong dis-incentive for Oracles and validators to provide inaccurate or fraudulent data and ensures that data is &quot;fresh&quot;. Validators are responsible for data retention and verification of data contracts between Oracles and DAPPs. Such verification includes: accuracy, fidelity and adherence to the terms and conditions of data contracts (SDC). In summary K2 token provides the following utility:
 
 - Buy and sell data services, validation, networks fees
 - Stake tokens to obtain publishing and validation rights
 - Stake tokens to obtain governance and voting rights
 - Dynamic pricing structure to ensure predictable costs
 
-## K2 Proof Stake Model (PoS)
+## K2N Proof Stake Model (PoS)
 
-All K2 data providers such as Oracles, data lakes, validators, routers must stake K2 tokens to partake in the K2 ecosystem. Staked tokens are used to ensure quality of service and enforce terms of service outlined in the Smart Data Contract (SDC). Network particapants may lose part of the staked K2 tokens if terms outlined SDC are violated. Here are some examples of SDC violations:
+All K2N data providers such as Oracles, data lakes, validators, routers must stake K2N tokens to partake in the K2N ecosystem. Staked tokens are used to ensure quality of service and enforce terms of service outlined in the Smart Data Contract (SDC). Network particapants may lose part of the staked K2N tokens if terms outlined SDC are violated. Here are some examples of SDC violations:
 
 - Data is not within agreed upon QoS (Quality of Service)
 - Inaccurate or incorrect data (rejected by most validators)
@@ -289,15 +289,15 @@ All K2 data providers such as Oracles, data lakes, validators, routers must stak
 - Exception or no response received (request timeout)
 - Service unavailable or bad return
 
-The penalty is applied against insurance budget (funded by K2 network particapants) when terms of services are violated. This ensures that data consumers (DAPPs) get the highest level of service. K2 PoS combined with SDC serves as an algorihmic insurance, dispute resolution and reputation scoring model.
+The penalty is applied against insurance budget (funded by K2N particapants) when terms of services are violated. This ensures that data consumers (DAPPs) get the highest level of service. K2N PoS combined with SDC serves as an algorihmic insurance, dispute resolution and reputation scoring model.
 
-## K2 Governance Model
+## K2N Governance Model
 
-K2 PoS model allows network participants to influence development, behavior and governance of the K2 ecosystem. All network participants who stake K2 tokens have voting rights which are proportional to the number of staked tokens. Therefore, networks participants get a say in the rules, conditions, development and governance of K2 ecosystem.
+K2N PoS model allows network participants to influence development, behavior and governance of the K2N ecosystem. All network participants who stake K2N tokens have voting rights which are proportional to the number of staked tokens. Therefore, networks participants get a say in the rules, conditions, development and governance of K2N ecosystem.
 
-Voting is done on a quarterly schedule and get merged into the main trunk of the K2 roadmap. Any network participant (with staked tokens) can file a &quot;proposal&quot; to be voted on by the K2 stake holders.
+Voting is done on a quarterly schedule and get merged into the main trunk of the K2N roadmap. Any network participant (with staked tokens) can file a &quot;proposal&quot; to be voted on by the K2N stake holders.
 
-Each proposal consists of 2 parts: problem or challenge and one or more solutions. Each proposal goes through a few rounds of feedback and public debate after which it goes out for a quarterly vote. Proposals can affect the following parts of the ecosystem:
+Each proposal consists of: problem or challenge and one or more solutions. Each proposal goes through a few rounds of feedback and public debate after which it goes out for a quarterly vote. Proposals can affect the following parts of the ecosystem:
 
 - Request for enhancement or change
 - Request to change process or implementation
@@ -310,7 +310,7 @@ Each proposal consists of 2 parts: problem or challenge and one or more solution
 
 # Technology &amp; Roadmap
 
-K2 project is a derivative of a technology developed by jKool, LLC which is already running in production as a SaaS platform for streaming and analyzing data in motion and @ rest ( [www.jkoolcloud.com](http://www.jkoolcloud.com)). jKool, LLC ( [www.jkoolcloud.com](http://www.jkoolcloud.com)) contributes the following technology to the K2 ecosystem:
+K2N project is a derivative of a technology developed by jKool, LLC which is already running in production as a SaaS platform for streaming and analyzing data in motion and @ rest ( [www.jkoolcloud.com](http://www.jkoolcloud.com)). jKool, LLC ( [www.jkoolcloud.com](http://www.jkoolcloud.com)) contributes the following technology to the K2 ecosystem:
 
 - Streaming platform for Oracles ( [https://github.com/Nastel/tnt4j-streams](https://github.com/Nastel/tnt4j-streams))
 - Streaming and analytics APIs ( [https://github.com/Nastel/jkool-client-java-api](https://github.com/Nastel/jkool-client-java-api))
@@ -318,11 +318,11 @@ K2 project is a derivative of a technology developed by jKool, LLC which is alre
 - Data analytics platform ( [https://www.jkoolcloud.com/product/jkql-query-language/](https://www.jkoolcloud.com/product/jkql-query-language/))
 - Marketplace for Oracles and consumers ( [https://jkool.jkoolcloud.com/jKool/login.jsp](https://jkool.jkoolcloud.com/jKool/login.jsp))
 
-K2 Platform will be open sourced available @ GitHub under [LGPL-v3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html) license with development roadmap governed by community governance board as described in K2 Governance Model.
+K2N Platform will be open sourced available @ GitHub under [LGPL-v3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html) license with development roadmap governed by community governance board as described in K2N Governance Model.
 
-K2 Project will also develop additional extensions such as:
+K2N Project will also develop additional extensions such as:
 
-- K2 voting and governance platform
+- K2N voting and governance platform
 - Data marketplace using K2 token and other crypto currencies
 - Reputation score for Oracles, validators
 - Data audit and validation ecosystem
@@ -334,7 +334,7 @@ K2 Project will also develop additional extensions such as:
 
 # Summary
 
-Data integration presents a significant challenge for the development and growth of the digital smart economy. K2&#39;s goal is to deliver a data integration and analytics marketplace for powering data rich, dynamic DAPPs. This ecosystem is essential for the overall success of the smart economy. K2 combines multiple integrated technologies such as: cryptography, streaming, clustered computing, big &amp; fast data, complex event processing (CEP) as well as a data marketplace where machine data can be traded between data providers (such as Oracles) and decentralized applications.
+Data integration presents a significant challenge for the development and growth of the digital smart economy. K2&#39;s goal is to deliver a data integration and analytics marketplace for powering data rich, dynamic DAPPs. This ecosystem is essential for the overall success of the smart economy. K2N combines multiple integrated technologies such as: cryptography, streaming, clustered computing, big &amp; fast data, complex event processing (CEP) as well as a data marketplace where machine data can be traded between data providers (such as Oracles) and decentralized applications.
 
 # Resources and Links
 
