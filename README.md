@@ -211,11 +211,11 @@ Validators are independent entities responsible for verification of promised qua
 
 ## Patterns (Pre-Packaged Data Services)
 
-Pattern is a pre-packaged set of data services such validators, oracles, data lakes and algorithms which accomplish a specific functional or business objective. For example: a crypto pricing pattern, news feed pattern, logging pattern, etc. Each pattern includes a set of predefined data inputs and outputs and can be consumed by the underlying DAPP as a package instead of individual parts. Patterns make it easy for developers to build and deploy applications by simply sourcing proven patterns into their business logic. Developers can also create and publish patterns into K2 data marketplace. Pattern can also include other patterns.
+Pattern is a pre-packaged set of data services such validators, oracles, data lakes and algorithms which accomplish a specific functional or business objective. For example: a crypto pricing pattern, news feed pattern, logging pattern, etc. Each pattern includes a set of predefined data inputs and outputs and can be consumed by the underlying DAPP as a package instead of individual parts. Patterns make it easy for developers to build and deploy applications by simply sourcing proven patterns into their business logic. Developers can also create and publish patterns into K2N data marketplace. Pattern can also include other patterns.
 
 ## Pricing Models for Data Services
 
-K2 introduces a consistent pricing model for all data services. The following pricing models will be introduced:
+K2N introduces a consistent pricing model for all data services. The following pricing models will be introduced:
 
 - **Pay-per-use** – consumer pays for each write/request/reply when accessing data services. This model works for contracts which need data on as-needed basis. Fee can be measured either per call or per byte.
 - **Pay-per-batch** – typically for long term data services where consumer pre-pays for a batch of messages (or bytes) which covers data, validation, intermediary and gas. It works very much like a pre-paid &quot;charge card&quot; where a service fee gets automatically deducted as data services are rendered to the underlying smart contract. Consumers must periodically replenish the &quot;charge card&quot; with more tokens or contract expires and stream terminates. Batches can be measured as the total number of calls or messages or total number of bytes.
@@ -290,11 +290,11 @@ K2N token ecosystem consists of following:
 
 - K2N token – digital smart contract, voting rights and means of exchange
 - K2N PoS – proof of stake model for network participants
-- K2N governance – a framework and process to govern development of K2 ecosystem
+- K2N governance – a framework and process to govern development of K2N ecosystem
 
 ## K2N Crypto Token
 
-K2N is a consumer token used for securing and trading K2N data services. DAPPs, validators, data lakes and oracles must obtain and stake K2N tokens to partake in the K2N network. Bad actors are punished by revoking a portion of K2 tokens as defined in SDC. This creates a strong dis-incentive for Oracles and validators to provide inaccurate or fraudulent data and ensures that data is &quot;fresh&quot;. Validators are responsible for data retention and verification of data contracts between Oracles and DAPPs. Such verification includes: accuracy, fidelity and adherence to the terms and conditions of data contracts (SDC). In summary K2 token provides the following utility:
+K2N is a consumer token used for securing and trading K2N data services. DAPPs, validators, data lakes and oracles must obtain and stake K2N tokens to partake in the K2N network. Bad actors are punished by revoking a portion of K2N tokens as defined in SDC. This creates a strong dis-incentive for Oracles and validators to provide inaccurate or fraudulent data and ensures that data is &quot;fresh&quot;. Validators are responsible for data retention and verification of data contracts between Oracles and DAPPs. Such verification includes: accuracy, fidelity and adherence to the terms and conditions of data contracts (SDC). In summary K2 token provides the following utility:
 
 - Buy and sell data services, validation, networks fees
 - Stake tokens to obtain publishing and validation rights
