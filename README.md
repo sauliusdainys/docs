@@ -222,10 +222,12 @@ K2 introduces a consistent pricing model for all data services. The following pr
 
 Pricing model is specified in the SDC (smart data contract) which outlines the terms of service between consumers and data services.
 Each pricing model should include the following parameters:
-- **Unit of measure** -- such as byte, response
-- **Price per unit** -- total units of specific currency ot tokens per specified unit of measure
-- **Price asset** -- ETH, BTC, LTC or other
-- **Settlement Frequency** -- time frequency at which payments are settled (paid out)
+- **Unit of measure (UM)** -- such as byte, response (messages)
+- **Price per unit (PPU)** -- total units of specific currency or crypto per specified unit of measure
+- **Price asset (PA)** -- ETH, BTC, LTC, USD, EUR or other
+- **Settlement Frequency (SF)** -- time frequency at which payments are settled (paid out)
+
+Price is computed as follows: DataPrice=PPU*#_of_UM (number of units measure (bytes, responses).   
 
 ### Proposed Pricing Model for Oracles and Routers
 
@@ -233,7 +235,13 @@ Services privided by oracles and routers are typically based on volume of data e
 
 ### Proposed Pricing Model for Data Lakes
 
-Data lakes introduce another service dimension -- data retenion, which defines how long data is stored within the data lake before it can be discarded. Therefore data lake pricing model should base be based not only on volume of data but also retention measured in unit of time.
+Data lakes introduce another service dimension -- data retenion, which defines how long data is stored within the data lake before it can be discarded. Therefore data lake pricing model should base be based not only on volume of data but also retention measured in unit of time. Such pricing model derives all the base pricing model parameters and adds the following:
+
+- **Retention Time Unit (RTU)** -- such minute, hour, day, week, month, year (e.g. day)
+- **Price/RTU (P/RTU)** -- price per unit of time (e.g. 0.001)
+- **Total Retention (TR)** -- total number of time units to retain (store data) (e.g. 60) 
+
+Retention price is computed as follows: RetentionPrice=TR*P/RTU*#_of_UM, and Total_Price = RetentionPrice + DataPrice.
 
 ## Reputation Scores (Karma)
 
