@@ -59,7 +59,7 @@ There are instances when DAPPs may want to write data to an external data store 
 
 ## Unpredictable Cost Structure
 
-Data consumers want a predictable cost structure, while data providers a predictable revenue model. How do you price services when token&#39;s value may fluctuate dramatically on the open market? One of the goals of the K2N ecosystem is to introduce a stable cost structure via a K2 token, where costs are pegged to something external such as USD, EUR, gold, etc. and actual price of K2 tokens fluctuates dynamically based on a market exchange rate. This dynamic data pricing model ensures consistent cost and revenue model within K2 ecosystem.
+Data consumers want a predictable cost structure, while data providers a predictable revenue model. How do you price services when token&#39;s value may fluctuate dramatically on the open market? One of the goals of the K2N ecosystem is to introduce a stable cost structure via a K2N token, where costs are pegged to something external such as USD, EUR, gold, etc. and actual price of K2N tokens fluctuates dynamically based on a market exchange rate. This dynamic data pricing model ensures consistent cost and revenue model within K2 ecosystem.
 
 ## Data Delivery Modes
 
@@ -81,11 +81,11 @@ How do smart contracts access data in the real-world? Accessing data such as sto
 
 ## Data Accuracy
 
-How do you build a smart contract on fresh, secure and accurate data? Transferring value based on inaccurate or false data could wreak havoc across the entire digital ecosystem.  Data accuracy must be ensured to gain trust in the trustless model. K2 introduces a concept of data validators which act to verify data fidelity and accuracy and not just authenticity of the source. Authentic data does not necessarily mean it is accurate.
+How do you build a smart contract on fresh, secure and accurate data? Transferring value based on inaccurate or false data could wreak havoc across the entire digital ecosystem.  Data accuracy must be ensured to gain trust in the trustless model. K2N introduces a concept of data validators which act to verify data fidelity and accuracy and not just authenticity of the source. Authentic data does not necessarily mean it is accurate.
 
 ## Data Fidelity
 
-Decentralized applications can only deliver on their promise if data available to them is of high fidelity. Fidelity is defined as:  _is the quality of faithfulness or loyalty. Its original meaning regarded duty in a broader sense than the related concept of fealty. Both derive from the Latin word fidēlis, meaning &quot;faithful or loyal&quot;_. Contract execution can be easily compromised if data streams are hi jacked or spoofed. Data fidelity must be ensured for contract execution to be trusted and secure. One of the main attributes of K2 is to ensure data fidelity.
+Decentralized applications can only deliver on their promise if data available to them is of high fidelity. Fidelity is defined as:  _is the quality of faithfulness or loyalty. Its original meaning regarded duty in a broader sense than the related concept of fealty. Both derive from the Latin word fidēlis, meaning &quot;faithful or loyal&quot;_. Contract execution can be easily compromised if data streams are hi jacked or spoofed. Data fidelity must be ensured for contract execution to be trusted and secure. One of the main attributes of K2N is to ensure data fidelity.
 
 ## Data Joins
 
@@ -172,10 +172,10 @@ Each SDC is funded by all parties to the contract. Consumers fund the contract t
 Smart Data Contracts are settled during the life of the contract and at the end of each contract. Settlement includes disbursement of balances to all particapants such as consumers, oracles, data lakes, routers, etc. Therefore long term contracts can settle periodically as defined by the settlement policy (e.g hourly, daily, weekly, monthly).
 
 SDC life cycle consists of the following phases:
-- Phase 1: Funding    -- contract is initiated where all parties msut fund the contract
-- Phase 2: Active     -- contract is funded and live; data exchange can be initiated
-- Phase 3: Settlement -- contracts periodically settle balances across all parties
-- Phase 4: Expiration -- contract expires either based on terms of use or one when contract budget and/or insurance is depleted
+- **Phase 1: Funding**    -- contract is initiated where all parties must fund the contract
+- **Phase 2: Active**     -- contract is funded and live; data exchange can be initiated
+- **Phase 3: Settlement** -- contracts periodically settle balances across all parties
+- **Phase 4: Expiration** -- contract expires either based on terms of use or when contract budget and/or insurance is depleted
 
 ## Messages (Data Frames)
 
@@ -311,7 +311,7 @@ All K2N data providers such as Oracles, data lakes, validators, routers must sta
 - Exception or no response received (request timeout)
 - Service unavailable or bad return
 
-The penalty is applied against insurance budget (funded by K2N particapants) when terms of services are violated. This ensures that data consumers (DAPPs) get the highest level of service. K2N PoS combined with SDC serves as an algorihmic insurance, dispute resolution and reputation scoring model.
+The penalty is applied against insurance budget (funded by K2N particapants) when terms of services are violated. This ensures that data consumers (DAPPs) get the highest level of service. K2N PoS combined with SDC serves as an algorihmic insurance, dispute resolution and reputation scoring model. Bad actors stand to lose staked K2N tokens as well suffer loss of reputation. **K2N tokens are burned (taken out of the circulation) when deducted as penalty against posted insurance.**
 
 ## K2N Governance Model
 
