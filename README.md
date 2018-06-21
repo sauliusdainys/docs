@@ -337,17 +337,17 @@ K2N project is a derivative of a technology developed by jKool, LLC which is alr
 - Streaming platform for Oracles ( [https://github.com/Nastel/tnt4j-streams](https://github.com/Nastel/tnt4j-streams))
 - Streaming and analytics APIs ( [https://github.com/Nastel/jkool-client-java-api](https://github.com/Nastel/jkool-client-java-api))
 - Messaging and audit platform ( [https://www.jkoolcloud.com/product/technology/](https://www.jkoolcloud.com/product/technology/))
-- Data analytics platform ( [https://www.jkoolcloud.com/product/jkql-query-language/](https://www.jkoolcloud.com/product/jkql-query-language/))
+- Data analytics language ( [https://www.jkoolcloud.com/product/jkql-query-language/](https://www.jkoolcloud.com/product/jkql-query-language/))
 - Marketplace for Oracles and consumers ( [https://jkool.jkoolcloud.com/jKool/login.jsp](https://jkool.jkoolcloud.com/jKool/login.jsp))
 
 K2N Platform will be open sourced available @ GitHub under [LGPL-v3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html) license with development roadmap governed by community governance board as described in K2N Governance Model.
 
-K2N Project will also develop additional extensions such as:
+K2N will also develop additional extensions such as:
 
 - K2N voting and governance platform
-- Data marketplace using K2 token and other crypto currencies
-- Reputation score for Oracles, validators
-- Data audit and validation ecosystem
+- Data marketplace using K2N token and other crypto currencies
+- Reputation score for Oracles, validators, routers
+- Data audit, validation, retention ecosystem
 - Smart data contract implementation &amp; data pricing &amp; monetization
 - High level language for implementing smart data contracts (Liquid)
 - Data computations, aggregations and analytics off-chain (Liquid)
@@ -356,7 +356,7 @@ K2N Project will also develop additional extensions such as:
 
 # Summary
 
-Data integration presents a significant challenge for the development and growth of the digital smart economy. K2&#39;s goal is to deliver a data integration and analytics marketplace for powering data rich, dynamic DAPPs. This ecosystem is essential for the overall success of the smart economy. K2N combines multiple integrated technologies such as: cryptography, streaming, clustered computing, big &amp; fast data, complex event processing (CEP) as well as a data marketplace where machine data can be traded between data providers (such as Oracles) and decentralized applications.
+Data integration presents a significant challenge for the development and growth of the digital smart economy. K2N&#39;s goal is to deliver a data integration and analytics marketplace for powering data rich, dynamic DAPPs. This ecosystem is essential for the overall success of the smart economy. K2N combines multiple integrated technologies such as: cryptography, streaming, clustered computing, big &amp; fast data, complex event processing (CEP) as well as a data marketplace where machine data can be traded between data providers (such as Oracles) and decentralized applications.
 
 # Resources and Links
 
