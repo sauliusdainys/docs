@@ -237,11 +237,11 @@ Services provided by oracles, validators and routers are typically based on volu
 
 Data lakes introduce another pricing dimension -- data retenion, which defines how long data is stored within the data lake before it can be discarded. Therefore data lake pricing model should inlude volume of data stored as well retention measured in a unit of time. Such pricing model derives all the base pricing model parameters and adds the following:
 
-- **Retention Time Unit (RTU)** -- such minute, hour, day, week, month, year (e.g. day)
-- **Price/RTU (PRTU)** -- price per unit of time (e.g. 0.001)
-- **Max Retention (MR)** -- maximum number of time units to retain (store data) (e.g. 60) 
+- **Time Unit (TU)** -- such minute, hour, day, week, month, year (e.g. day)
+- **Price/TU (PTU)** -- price per unit of time (e.g. 0.001)
+- **Retention Units (RU)** -- number of time units to retain (store data) (e.g. 60) 
 
-Retention price is computed as follows: RetentionPrice=TR*(PRTU)*#_of_UM, and Total_Price = RetentionPrice + DataPrice.
+Retention price is computed as follows: RetentionPrice=RU*(PTU)*#_of_UM, and Total_Price = RetentionPrice + DataPrice.
 Basically Data lake pricing includes a fee for pushing data into the lake as well as a fee to store it for a period of time.
 
 ## Reputation Scores (Karma)
