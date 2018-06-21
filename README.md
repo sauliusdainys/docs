@@ -229,9 +229,9 @@ Each pricing model should include the following parameters:
 
 Price is computed as follows: DataPrice=PPU*#_of_UM (number of units measure (bytes, responses).   
 
-### Proposed Pricing Model for Oracles, Verifiers, Routers
+### Proposed Pricing Model for Oracles, Validators, Routers
 
-Services provided by oracles, verifiers and routers are typically based on volume of data either measured by number of bytes or messages (responses) served to data consumers. Thus a standard pricing model based on data volume should be sufficient. Other pricing models can be introduced (derived) from the base pricing model.
+Services provided by oracles, validators and routers are typically based on volume of data either measured by number of bytes or messages (responses) served to data consumers. Thus a standard pricing model based on data volume should be sufficient. Other pricing models can be introduced (derived) from the base pricing model.
 
 ### Proposed Pricing Model for Data Lakes (Retention)
 
