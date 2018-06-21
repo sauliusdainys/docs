@@ -6,7 +6,7 @@
 
 # About
 
- [http://k2n.io](http://k2n.io)
+ [https://k2n.io](http://k2n.io)
  [info@k2n.io](mailto:info@k2n.io)
 
 # Disclaimer
@@ -360,7 +360,7 @@ Data integration presents a significant challenge for the development and growth
 
 # Resources and Links
 
-- [http://k2n.io](http://k2n.io)
+- [https://k2n.io](http://k2n.io)
 - [https://jkoolcloud.com](https://jkoolcloud.com)
 - [https://github.com/K2NIO](https://github.com/K2NIO)
 - [https://twitter.com/k2platform](https://twitter.com/k2platform)
