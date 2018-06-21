@@ -227,7 +227,7 @@ Each pricing model should include the following parameters:
 - **Pricing asset (PA)** -- K2N, ETH, BTC, LTC, USD, EUR or other
 - **Settlement Frequency (SF)** -- time frequency at which payments are settled (paid out)
 
-Price is computed as follows: DataPrice=PPU*#_of_UM (number of units measure (bytes, responses).   
+Price is computed as follows: DataPrice=PPU*#_of_UM (number of units of measure such as bytes or messages).   
 
 ### Proposed Pricing Model for Oracles, Validators, Routers
 
