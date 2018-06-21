@@ -220,7 +220,20 @@ K2 introduces a consistent pricing model for all data services. The following pr
 - **Pay-per-use** – consumer pays for each write/request/reply when accessing data services. This model works for contracts which need data on as-needed basis. Fee can be measured either per call or per byte.
 - **Pay-per-batch** – typically for long term data services where consumer pre-pays for a batch of messages (or bytes) which covers data, validation, intermediary and gas. It works very much like a pre-paid &quot;charge card&quot; where a service fee gets automatically deducted as data services are rendered to the underlying smart contract. Consumers must periodically replenish the &quot;charge card&quot; with more tokens or contract expires and stream terminates. Batches can be measured as the total number of calls or messages or total number of bytes.
 
-A pricing model is specified in the SDC (smart data contract) which outlines the terms of service between consumers and data services.
+Pricing model is specified in the SDC (smart data contract) which outlines the terms of service between consumers and data services.
+Each pricing model should include the following parameters:
+- **Unit of measure** -- such as byte, response
+- **Price per unit** -- total units of specific currency ot tokens per specified unit of measure
+- **Price asset** -- ETH, BTC, LTC or other
+- **Settlement Frequency** -- time frequency at which payments are settled (paid out)
+
+### Proposed Pricing Model for Oracles and Routers
+
+Services privided by oracles and routers are typically based on volume of data either measured by number of bytes or messages (response) served to data consumers. Thus a standard pricing model based on data volume should be sufficient. Other pricing models can be introduced (derived) from the base pricing model.
+
+### Proposed Pricing Model for Data Lakes
+
+Data lakes introduce another service dimension -- data retenion, which defines how long data is stored within the data lake before it can be discarded. Therefore data lake pricing model should base be based not only on volume of data but also retention measured in unit of time.
 
 ## Reputation Scores (Karma)
 
