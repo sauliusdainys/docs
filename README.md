@@ -59,7 +59,7 @@ There are instances when DAPPs may want to write data to an external data store 
 
 ## Unpredictable Cost Structure
 
-Data consumers want a predictable cost structure, while data providers a predictable revenue model. How do you price services when token&#39;s value may fluctuate dramatically on the open market? One of the goals of the K2N ecosystem is to introduce a stable cost structure via a K2N token, where costs are pegged to something external such as USD, EUR, gold, etc. and actual price of K2N tokens fluctuates dynamically based on a market exchange rate. This dynamic data pricing model ensures consistent cost and revenue model within K2 ecosystem.
+Data consumers want a predictable cost structure, while data providers a predictable revenue model. How do you price services when token&#39;s value may fluctuate dramatically on the open market? One of the goals of the K2N ecosystem is to introduce a stable cost structure via a K2N token, where costs are pegged to something external such as USD, EUR, gold, etc. and actual price of K2N tokens fluctuates dynamically based on a market exchange rate. This dynamic data pricing model ensures consistent cost and revenue model within K2N ecosystem.
 
 ## Data Delivery Modes
 
@@ -98,7 +98,7 @@ It is quite common for apps to use multiple data sources and algorithms to imple
 - Payment and quality of service may differ and need to be managed for each Oracle
 - Changes in each Oracle&#39;s interface may break your application logic
 
-K2 creates a consistent way to query, compute and join Oracles together via a &quot;data join&quot;. Data join works similar to a shopping cart – put all your data items in one bag &quot;data frame&quot;, check out and pay. This makes building applications easy, efficient while dramatically improving quality and accelerating release cycles.
+K2N establishes a consistent way to query, compute and join data sources together via a &quot;data join&quot;. Data join works similar to a shopping cart – put all your data items in one bag &quot;data frame&quot;, check out and pay. This makes building applications easy, efficient while dramatically improving quality and accelerating release cycles.
 
 ## Smart Data Contracts &amp; Quality of Service
 
@@ -117,7 +117,7 @@ Developers of decentralized applications should be able to form and execute a Sm
 
 ## Data Retention and Replay
 
-Data inputs which are available for contract execution must also be auditable and available for replay. How does one independently verify a contract execution and subsequent results? They must have access to data inputs which trigger smart contract execution. Destroying such data will render smart contracts unverifiable and therefore not trust worthy. Who would trust a smart contract which cannot be independently verified? This capability is critical to enable trust, weed out fraud and theft in the digital smart economy. K2 establishes an off-chain data retention facility which can be used to audit execution of DAPPs utilizing one or more Oracles. Retention is specified in the SDC (Smart Data Contract).
+Data inputs which are available for contract execution must also be auditable and available for replay. How does one independently verify a contract execution and subsequent results? They must have access to data inputs which trigger smart contract execution. Destroying such data will render smart contracts unverifiable and therefore not trust worthy. Who would trust a smart contract which cannot be independently verified? This capability is critical to enable trust, weed out fraud and theft in the digital smart economy. K2N establishes an off-chain data retention facility which can be used to audit execution of DAPPs utilizing one or more Oracles. Retention is specified in the SDC (Smart Data Contract). Retention is backed by Data Lakes described below.
 
 ## Data Consistency across Blockchain
 
@@ -139,7 +139,7 @@ Running on-chain computation are slow and expensive within today&#39;s set of de
 
 ## Off-chain Contract to Contract Communication (C2C)
 
-Contracts should be able to exchange data without on-chain settlement. C2C communication is often necessary to deliver high throughput, data rich, dynamic applications. Such data exchanges can occur via Oracles and/or Data Lakes using variety of data access methods as described in previous sections.
+Contracts should be able to exchange data without on-chain settlement. C2C communication is often necessary to deliver high throughput, data rich, dynamic applications. Such data exchange can occur via Oracles and/or Data Lakes using variety of data access methods as described in previous sections. Off-chain C2C communication will enable contracts to exchange large and small data sets (video, images, documents, messages, structured and unstructred) at high rates.
 
 # K2N.IO – Data Integration Platform for DAPPs
 
