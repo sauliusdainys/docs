@@ -139,7 +139,7 @@ Running on-chain computation are slow and expensive within today&#39;s set of de
 
 ## Off-chain Contract to Contract Communication (C2C)
 
-Contracts should be able to exchange data without on-chain settlement. C2C communication is often necessary to deliver high throughput, data rich, dynamic applications. Such data exchange can occur via Oracles and/or Data Lakes using variety of data access methods as described in previous sections. Off-chain C2C communication will enable contracts to exchange large and small data sets (video, images, documents, messages, structured and unstructred) at high rates.
+Contracts should be able to exchange data without on-chain settlement. C2C communication is often necessary to deliver high throughput, data rich, dynamic applications. Such data exchange can occur via Oracles and/or Data Lakes using variety of data access methods as described in previous sections. Off-chain C2C communication will enable contracts to exchange large and small data sets (video, images, documents, messages, structured and unstructured) at high rates.
 
 # K2N.IO – Data Integration Platform for DAPPs
 
