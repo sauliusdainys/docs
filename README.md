@@ -334,11 +334,11 @@ Each proposal consists of: problem or challenge and one or more solutions. Each 
 
 K2N project is a derivative of a technology developed by jKool, LLC which is already running in production as a SaaS platform for streaming and analyzing data in motion and @ rest ( [www.jkoolcloud.com](http://www.jkoolcloud.com)). jKool, LLC ( [www.jkoolcloud.com](http://www.jkoolcloud.com)) contributes the following technology to the K2 ecosystem:
 
-- Streaming platform for Oracles ( [https://github.com/Nastel/tnt4j-streams](https://github.com/Nastel/tnt4j-streams))
-- Streaming and analytics APIs ( [https://github.com/Nastel/jkool-client-java-api](https://github.com/Nastel/jkool-client-java-api))
-- Messaging and audit platform ( [https://www.jkoolcloud.com/product/technology/](https://www.jkoolcloud.com/product/technology/))
-- Data analytics language ( [https://www.jkoolcloud.com/product/jkql-query-language/](https://www.jkoolcloud.com/product/jkql-query-language/))
-- Marketplace for Oracles and consumers ( [https://jkool.jkoolcloud.com/jKool/login.jsp](https://jkool.jkoolcloud.com/jKool/login.jsp))
+- Streaming platform for Oracles ([https://github.com/Nastel/tnt4j-streams](https://github.com/Nastel/tnt4j-streams))
+- Streaming and analytics APIs ([https://github.com/Nastel/jkool-client-java-api](https://github.com/Nastel/jkool-client-java-api))
+- Messaging and audit platform ([https://www.jkoolcloud.com/product/technology/](https://www.jkoolcloud.com/product/technology/))
+- Data analytics language ([https://www.jkoolcloud.com/product/jkql-query-language/](https://www.jkoolcloud.com/product/jkql-query-language/))
+- Marketplace for Oracles and consumers ([https://jkool.jkoolcloud.com/jKool/login.jsp](https://jkool.jkoolcloud.com/jKool/login.jsp))
 
 K2N Platform will be open sourced available @ GitHub under [LGPL-v3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html) license with development roadmap governed by community governance board as described in K2N Governance Model.
 
