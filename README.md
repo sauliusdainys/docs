@@ -332,7 +332,7 @@ Each proposal consists of: problem or challenge and one or more solutions. Each 
 
 # Technology &amp; Roadmap
 
-K2N project is a derivative of a technology developed by jKool, LLC which is already running in production as a SaaS platform for streaming and analyzing data in motion and @ rest ( [www.jkoolcloud.com](http://www.jkoolcloud.com)). jKool, LLC ( [www.jkoolcloud.com](http://www.jkoolcloud.com)) contributes the following technology to the K2 ecosystem:
+K2N project is a derivative of a technology developed by jKool, LLC which is already running in production as a SaaS platform for streaming and analyzing data in motion and @ rest ( [www.jkoolcloud.com](http://www.jkoolcloud.com)). jKool, LLC ([www.jkoolcloud.com](http://www.jkoolcloud.com)) contributes the following technology to the K2N ecosystem:
 
 - Streaming platform for Oracles ([https://github.com/Nastel/tnt4j-streams](https://github.com/Nastel/tnt4j-streams))
 - Streaming and analytics APIs ([https://github.com/Nastel/jkool-client-java-api](https://github.com/Nastel/jkool-client-java-api))
