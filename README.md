@@ -250,7 +250,7 @@ All K2N network particapants are scored based quality of service provided over a
 
 ## Data Query &amp; Compute Language (Liquid)
 
-K2 provides several ways to write, query and analyze data:
+K2N provides several ways to write, query and analyze data:
 
 - Stream – write (un)structured  data into a data lake with a specific retention policy
 - Request/Reply – query and filter a specific data set from an oracle or a data lake
@@ -259,7 +259,7 @@ K2 provides several ways to write, query and analyze data:
 - Complex Event Processing  -- queries, computations, aggregations  on real-time feeds (CEP)
 - Call external web APIs (HTML, JSON, XML, etc.)
 
-Queries are expressed using a common data query language called **Liquid**. Examples of K2 Liquid queries:
+Queries are expressed using a common data query language called **Liquid**. Examples of K2N Liquid queries:
 
 - Stream data: _&#39;Upsert Event EventName=&#39;Payment&#39;, Tag=(&#39;amazon&#39;,&#39;books&#39;), Properties=(D:&#39;amount&#39;=&#39;10.0&#39;, D:&#39;tax&#39;=&#39;1.3&#39;) retain for 10 days&#39;_
 - Query a data lake: _&#39;get events from &quot;Orders&quot; fields amount for last 1 hour&#39;_
@@ -294,7 +294,7 @@ K2N token ecosystem consists of following:
 
 ## K2N Crypto Token
 
-K2N is a consumer token used for securing and trading K2N data services. DAPPs, validators, data lakes and oracles must obtain and stake K2N tokens to partake in the K2N network. Bad actors are punished by revoking a portion of K2N tokens as defined in SDC. This creates a strong dis-incentive for Oracles and validators to provide inaccurate or fraudulent data and ensures that data is &quot;fresh&quot;. Validators are responsible for data retention and verification of data contracts between Oracles and DAPPs. Such verification includes: accuracy, fidelity and adherence to the terms and conditions of data contracts (SDC). In summary K2 token provides the following utility:
+K2N is a consumer token used for securing and trading K2N data services. DAPPs, validators, data lakes and oracles must obtain and stake K2N tokens to partake in the K2N network. Bad actors are punished by revoking a portion of K2N tokens as defined in SDC. This creates a strong dis-incentive for Oracles and validators to provide inaccurate or fraudulent data and ensures that data is &quot;fresh&quot;. Validators are responsible for data retention and verification of data contracts between Oracles and DAPPs. Such verification includes: accuracy, fidelity and adherence to the terms and conditions of data contracts (SDC). In summary K2N token provides the following utility:
 
 - Buy and sell data services, validation, networks fees
 - Stake tokens to obtain publishing and validation rights
@@ -332,7 +332,7 @@ Each proposal consists of: problem or challenge and one or more solutions. Each 
 
 # Technology &amp; Roadmap
 
-K2N project is a derivative of a technology developed by jKool, LLC which is already running in production as a SaaS platform for streaming and analyzing data in motion and @ rest ( [www.jkoolcloud.com](http://www.jkoolcloud.com)). jKool, LLC ([www.jkoolcloud.com](http://www.jkoolcloud.com)) contributes the following technology to the K2N ecosystem:
+K2N project is a derivative of a technology developed by jKool, LLC which is already running in production as a SaaS platform for streaming and analyzing data in motion and @ rest ([www.jkoolcloud.com](http://www.jkoolcloud.com)). jKool, LLC ([www.jkoolcloud.com](http://www.jkoolcloud.com)) contributes the following technology to the K2N ecosystem:
 
 - Streaming platform for Oracles ([https://github.com/Nastel/tnt4j-streams](https://github.com/Nastel/tnt4j-streams))
 - Streaming and analytics APIs ([https://github.com/Nastel/jkool-client-java-api](https://github.com/Nastel/jkool-client-java-api))
