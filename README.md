@@ -185,7 +185,7 @@ Messages (Data Frames) address the issue of consistently applying chunks of rela
 
 ## Algorithms (Compute Oracles)
 
-Algorithms are specialized Oracles which deliver computational capacity to the K2 ecosystem. Smart contracts can call K2 algorithms on a given data set. K2N will deliver a standard set of algorithms for analyzing times series data such as: mathematical operators, aggregations, statistical operators, anomaly detection, machine learning.
+Algorithms are specialized Oracles which deliver computational capacity to the K2N ecosystem. Smart contracts can call K2N algorithms on a given data set. K2N will deliver a standard set of algorithms for analyzing times series data such as: mathematical operators, aggregations, statistical operators, anomaly detection, machine learning.
 
 ## Oracles (Read &amp; Compute only)
 
@@ -199,7 +199,7 @@ Data Lake is a data repository holding static, dynamic data. It could be databas
 
 ## Data Routers (Data Intermediary)
 
-Data Router is K2N network intermediary which provides data routing &amp; delivery medium between data consumers and producers. Example of data routers could be: TOR, VPN, onion routing implementations, point-to-point and others. Smart data contract outlines the medium of exchange and defines the routing method between K2 data services. Routers can also provide an additional level of security and anonymity required by data consumers. Routing services are paid for by data consumers and codified within a smart data contract.
+Data Router is K2N network intermediary which provides data routing &amp; delivery medium between data consumers and producers. Example of data routers could be: TOR, VPN, onion routing implementations, point-to-point and others. Smart data contract outlines the medium of exchange and defines the routing method between K2N data services. Routers can also provide an additional level of security and anonymity required by data consumers. Routing services are paid for by data consumers and codified within a smart data contract.
 
 ## Subscribers (Data Consumers)
 
